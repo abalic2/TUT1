@@ -15,7 +15,8 @@ public class Main {
     public static void main(String[] args) {
 	    Scanner ulaz=new Scanner(System.in);
 	    int n=ulaz.nextInt();
-	    for(int i=1;i<n;i++)
-	        if (i%sumaCifara(i)==0) System.out.println(i);
+	    for(int i=1;i<n;i++) {
+            if (i % sumaCifara(i) == 0) System.out.println(i);
+        }
     }
 }
