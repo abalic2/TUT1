@@ -4,9 +4,9 @@ public class Student {
     private String ime, prezime;
     private int brojIndeksa;
     public Student(String ime, String prezime, int brojIndeksa){
-        this.ime=ime;
-        this.prezime=prezime;
-        this.brojIndeksa=brojIndeksa;
+        this.ime = ime;
+        this.prezime = prezime;
+        this.brojIndeksa = brojIndeksa;
     }
     public String getIme() {
         return ime;
@@ -26,7 +26,6 @@ public class Student {
     public void setBrojIndeksa(int brojIndeksa) {
         this.brojIndeksa = brojIndeksa;
     }
-
     public String toString() {
         return prezime + " " + ime + " (" + brojIndeksa + ")";
     }

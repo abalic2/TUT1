@@ -9,13 +9,14 @@ public class Program {
         try {
             p.upisi(s);
             p.upisi(s2);
+            p.ispisiStudente();
+            p.ispisi(s);
+            p.ispisiStudente();
         }
         catch (Exception e){
             System.out.println(e.getMessage());
         }
-        p.ispisiStudente();
-        p.ispisi(s);
-        p.ispisiStudente();
+
 
     }
 }
