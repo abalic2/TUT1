@@ -8,7 +8,7 @@ class PredmetTest {
 
     @Test
     void dostignutMaxBrojStudenata() {
-        
+
         assertThrows(Exception.class,()->{
             Predmet p = new Predmet("IM", 125, 2);
             Student s1=new Student("Amra","Dadic",18215);
