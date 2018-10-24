@@ -11,4 +11,11 @@ class StudentTest {
         Student s=new Student("Dzan","Tabakovic",18044);
         assertEquals("Tabakovic Dzan (18044)",s.toString());
     }
+
+    @Test
+    void setIme() {
+        Student s = new Student("Dzan", "Tabakovic", 18044);
+        s.setIme("Amar");
+        assertEquals("Amar", s.getIme());
+    }
 }

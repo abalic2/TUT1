@@ -23,6 +23,7 @@ public class Predmet {
     public int getMAX_BROJ_STUDENATA() {
         return MAX_BROJ_STUDENATA;
     }
+    public int getBrojStudenata() { return  brojStudenata; }
     public void setImePredmeta(String imePredmeta) {
         this.imePredmeta = imePredmeta;
     }
